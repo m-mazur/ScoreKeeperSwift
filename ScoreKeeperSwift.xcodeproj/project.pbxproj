@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04CF91F1A7D0FB000875C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */; };
+		F04CF9211A7D0FB000875C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF9201A7D0FB000875C23 /* ViewController.swift */; };
+		F04CF9241A7D0FB000875C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9221A7D0FB000875C23 /* Main.storyboard */; };
+		F04CF9261A7D0FB000875C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9251A7D0FB000875C23 /* Images.xcassets */; };
+		F04CF9291A7D0FB000875C23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */; };
+		F04CF9351A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */; };
+		F04CF93F1A7D103000875C23 /* ScoreKeeperDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF93E1A7D103000875C23 /* ScoreKeeperDataService.swift */; };
+		F04CF94F1A7D142C00875C23 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CF9481A7D13FC00875C23 /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F04CF92F1A7D0FB000875C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CF9111A7D0FB000875C23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04CF9181A7D0FB000875C23;
+			remoteInfo = ScoreKeeperSwift;
+		};
+		F04CF9471A7D13FC00875C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		F04CF9491A7D13FC00875C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		F04CF94B1A7D13FC00875C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		F04CF94D1A7D13FC00875C23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04CF9191A7D0FB000875C23 /* ScoreKeeperSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeperSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04CF91D1A7D0FB000875C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F04CF9201A7D0FB000875C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F04CF9231A7D0FB000875C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04CF9251A7D0FB000875C23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F04CF9281A7D0FB000875C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F04CF92E1A7D0FB000875C23 /* ScoreKeeperSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04CF9331A7D0FB000875C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperSwiftTests.swift; sourceTree = "<group>"; };
+		F04CF93E1A7D103000875C23 /* ScoreKeeperDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeperDataService.swift; sourceTree = "<group>"; };
+		F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04CF9161A7D0FB000875C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04CF94F1A7D142C00875C23 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04CF92B1A7D0FB000875C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04CF9101A7D0FB000875C23 = {
+			isa = PBXGroup;
+			children = (
+				F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */,
+				F04CF91B1A7D0FB000875C23 /* ScoreKeeperSwift */,
+				F04CF9311A7D0FB000875C23 /* ScoreKeeperSwiftTests */,
+				F04CF91A1A7D0FB000875C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04CF91A1A7D0FB000875C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF9191A7D0FB000875C23 /* ScoreKeeperSwift.app */,
+				F04CF92E1A7D0FB000875C23 /* ScoreKeeperSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04CF91B1A7D0FB000875C23 /* ScoreKeeperSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */,
+				F04CF9201A7D0FB000875C23 /* ViewController.swift */,
+				F04CF9221A7D0FB000875C23 /* Main.storyboard */,
+				F04CF9251A7D0FB000875C23 /* Images.xcassets */,
+				F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */,
+				F04CF91C1A7D0FB000875C23 /* Supporting Files */,
+				F04CF93E1A7D103000875C23 /* ScoreKeeperDataService.swift */,
+			);
+			path = ScoreKeeperSwift;
+			sourceTree = "<group>";
+		};
+		F04CF91C1A7D0FB000875C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF91D1A7D0FB000875C23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F04CF9311A7D0FB000875C23 /* ScoreKeeperSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */,
+				F04CF9321A7D0FB000875C23 /* Supporting Files */,
+			);
+			path = ScoreKeeperSwiftTests;
+			sourceTree = "<group>";
+		};
+		F04CF9321A7D0FB000875C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF9331A7D0FB000875C23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F04CF9411A7D13FC00875C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF9481A7D13FC00875C23 /* Alamofire.framework */,
+				F04CF94A1A7D13FC00875C23 /* Alamofire.framework */,
+				F04CF94C1A7D13FC00875C23 /* Alamofire iOS Tests.xctest */,
+				F04CF94E1A7D13FC00875C23 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04CF9181A7D0FB000875C23 /* ScoreKeeperSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04CF9381A7D0FB000875C23 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwift" */;
+			buildPhases = (
+				F04CF9151A7D0FB000875C23 /* Sources */,
+				F04CF9161A7D0FB000875C23 /* Frameworks */,
+				F04CF9171A7D0FB000875C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreKeeperSwift;
+			productName = ScoreKeeperSwift;
+			productReference = F04CF9191A7D0FB000875C23 /* ScoreKeeperSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F04CF92D1A7D0FB000875C23 /* ScoreKeeperSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04CF93B1A7D0FB000875C23 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwiftTests" */;
+			buildPhases = (
+				F04CF92A1A7D0FB000875C23 /* Sources */,
+				F04CF92B1A7D0FB000875C23 /* Frameworks */,
+				F04CF92C1A7D0FB000875C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04CF9301A7D0FB000875C23 /* PBXTargetDependency */,
+			);
+			name = ScoreKeeperSwiftTests;
+			productName = ScoreKeeperSwiftTests;
+			productReference = F04CF92E1A7D0FB000875C23 /* ScoreKeeperSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04CF9111A7D0FB000875C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marcus Mazur";
+				TargetAttributes = {
+					F04CF9181A7D0FB000875C23 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F04CF92D1A7D0FB000875C23 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F04CF9181A7D0FB000875C23;
+					};
+				};
+			};
+			buildConfigurationList = F04CF9141A7D0FB000875C23 /* Build configuration list for PBXProject "ScoreKeeperSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04CF9101A7D0FB000875C23;
+			productRefGroup = F04CF91A1A7D0FB000875C23 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F04CF9411A7D13FC00875C23 /* Products */;
+					ProjectRef = F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F04CF9181A7D0FB000875C23 /* ScoreKeeperSwift */,
+				F04CF92D1A7D0FB000875C23 /* ScoreKeeperSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F04CF9481A7D13FC00875C23 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F04CF9471A7D13FC00875C23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F04CF94A1A7D13FC00875C23 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F04CF9491A7D13FC00875C23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F04CF94C1A7D13FC00875C23 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = F04CF94B1A7D13FC00875C23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F04CF94E1A7D13FC00875C23 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = F04CF94D1A7D13FC00875C23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04CF9171A7D0FB000875C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04CF9241A7D0FB000875C23 /* Main.storyboard in Resources */,
+				F04CF9291A7D0FB000875C23 /* LaunchScreen.xib in Resources */,
+				F04CF9261A7D0FB000875C23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04CF92C1A7D0FB000875C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04CF9151A7D0FB000875C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04CF9211A7D0FB000875C23 /* ViewController.swift in Sources */,
+				F04CF93F1A7D103000875C23 /* ScoreKeeperDataService.swift in Sources */,
+				F04CF91F1A7D0FB000875C23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04CF92A1A7D0FB000875C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04CF9351A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04CF9301A7D0FB000875C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04CF9181A7D0FB000875C23 /* ScoreKeeperSwift */;
+			targetProxy = F04CF92F1A7D0FB000875C23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F04CF9221A7D0FB000875C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04CF9231A7D0FB000875C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04CF9281A7D0FB000875C23 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04CF9361A7D0FB000875C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F04CF9371A7D0FB000875C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04CF9391A7D0FB000875C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoreKeeperSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F04CF93A1A7D0FB000875C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoreKeeperSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F04CF93C1A7D0FB000875C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScoreKeeperSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeperSwift.app/ScoreKeeperSwift";
+			};
+			name = Debug;
+		};
+		F04CF93D1A7D0FB000875C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScoreKeeperSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreKeeperSwift.app/ScoreKeeperSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04CF9141A7D0FB000875C23 /* Build configuration list for PBXProject "ScoreKeeperSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04CF9361A7D0FB000875C23 /* Debug */,
+				F04CF9371A7D0FB000875C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04CF9381A7D0FB000875C23 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04CF9391A7D0FB000875C23 /* Debug */,
+				F04CF93A1A7D0FB000875C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F04CF93B1A7D0FB000875C23 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04CF93C1A7D0FB000875C23 /* Debug */,
+				F04CF93D1A7D0FB000875C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04CF9111A7D0FB000875C23 /* Project object */;
+}
