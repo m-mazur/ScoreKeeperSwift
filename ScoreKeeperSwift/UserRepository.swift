@@ -10,8 +10,8 @@ import Foundation
 import AlamoFire
 
 public class UserRepository {
-    public func getSingleUser() {
-        Alamofire.request(.GET, "http://stryktipsetscorekeeper.azurewebsites.net/api/Scores/17")
+    public func getSingleUser(userId: String) {
+        Alamofire.request(.GET, "http://stryktipsetscorekeeper.azurewebsites.net/api/Scores/" + userId)
             .responseJSON { (request, response, JSON, error) in
                 println(JSON);
                 println(JSON?.valueForKeyPath("UserName") as String);
