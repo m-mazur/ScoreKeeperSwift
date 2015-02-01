@@ -13,7 +13,7 @@
 		F04CF9291A7D0FB000875C23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */; };
 		F04CF9351A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */; };
 		F04CF94F1A7D142C00875C23 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CF9481A7D13FC00875C23 /* Alamofire.framework */; };
-		F064D6841A7E72550078B1A2 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064D6831A7E72550078B1A2 /* UserRepository.swift */; };
+		F064D6841A7E72550078B1A2 /* ScoresRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064D6831A7E72550078B1A2 /* ScoresRepository.swift */; };
 		F064D6871A7E727C0078B1A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064D6861A7E727C0078B1A2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		F04CF9331A7D0FB000875C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperSwiftTests.swift; sourceTree = "<group>"; };
 		F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		F064D6831A7E72550078B1A2 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRepository.swift; path = Repositories/UserRepository.swift; sourceTree = "<group>"; };
+		F064D6831A7E72550078B1A2 /* ScoresRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoresRepository.swift; path = Repositories/ScoresRepository.swift; sourceTree = "<group>"; };
 		F064D6861A7E727C0078B1A2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +111,7 @@
 		F04CF91B1A7D0FB000875C23 /* ScoreKeeperSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F064D6891A7E72F00078B1A2 /* Models */,
 				F064D6821A7E70B10078B1A2 /* Repositories */,
 				F064D6851A7E725D0078B1A2 /* ViewControllers */,
 				F064D6881A7E728E0078B1A2 /* Storyboards */,
@@ -161,7 +162,7 @@
 		F064D6821A7E70B10078B1A2 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				F064D6831A7E72550078B1A2 /* UserRepository.swift */,
+				F064D6831A7E72550078B1A2 /* ScoresRepository.swift */,
 			);
 			name = Repositories;
 			sourceTree = "<group>";
@@ -180,6 +181,13 @@
 				F04CF9221A7D0FB000875C23 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F064D6891A7E72F00078B1A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +329,7 @@
 			files = (
 				F064D6871A7E727C0078B1A2 /* ViewController.swift in Sources */,
 				F04CF91F1A7D0FB000875C23 /* AppDelegate.swift in Sources */,
-				F064D6841A7E72550078B1A2 /* UserRepository.swift in Sources */,
+				F064D6841A7E72550078B1A2 /* ScoresRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

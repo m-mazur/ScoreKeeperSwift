@@ -12,8 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var dataService: UserRepository = UserRepository();
-        dataService.getSingleUser("17");
+        var scoreRepository: ScoresRepository = ScoresRepository();
+        scoreRepository.getSingleScore("17");
     }
 
     override func didReceiveMemoryWarning() {
