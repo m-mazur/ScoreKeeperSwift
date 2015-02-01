@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F04CF91F1A7D0FB000875C23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */; };
-		F04CF9211A7D0FB000875C23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF9201A7D0FB000875C23 /* ViewController.swift */; };
 		F04CF9241A7D0FB000875C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9221A7D0FB000875C23 /* Main.storyboard */; };
 		F04CF9261A7D0FB000875C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9251A7D0FB000875C23 /* Images.xcassets */; };
 		F04CF9291A7D0FB000875C23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */; };
 		F04CF9351A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */; };
-		F04CF93F1A7D103000875C23 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF93E1A7D103000875C23 /* UserRepository.swift */; };
 		F04CF94F1A7D142C00875C23 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CF9481A7D13FC00875C23 /* Alamofire.framework */; };
+		F064D6841A7E72550078B1A2 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064D6831A7E72550078B1A2 /* UserRepository.swift */; };
+		F064D6871A7E727C0078B1A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064D6861A7E727C0078B1A2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +59,15 @@
 		F04CF9191A7D0FB000875C23 /* ScoreKeeperSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreKeeperSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04CF91D1A7D0FB000875C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F04CF9201A7D0FB000875C23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F04CF9231A7D0FB000875C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F04CF9251A7D0FB000875C23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F04CF9281A7D0FB000875C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F04CF92E1A7D0FB000875C23 /* ScoreKeeperSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04CF9331A7D0FB000875C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperSwiftTests.swift; sourceTree = "<group>"; };
-		F04CF93E1A7D103000875C23 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		F064D6831A7E72550078B1A2 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRepository.swift; path = Repositories/UserRepository.swift; sourceTree = "<group>"; };
+		F064D6861A7E727C0078B1A2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +111,13 @@
 		F04CF91B1A7D0FB000875C23 /* ScoreKeeperSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */,
-				F04CF9201A7D0FB000875C23 /* ViewController.swift */,
-				F04CF9221A7D0FB000875C23 /* Main.storyboard */,
+				F064D6821A7E70B10078B1A2 /* Repositories */,
+				F064D6851A7E725D0078B1A2 /* ViewControllers */,
+				F064D6881A7E728E0078B1A2 /* Storyboards */,
 				F04CF9251A7D0FB000875C23 /* Images.xcassets */,
 				F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */,
+				F04CF91E1A7D0FB000875C23 /* AppDelegate.swift */,
 				F04CF91C1A7D0FB000875C23 /* Supporting Files */,
-				F064D6821A7E70B10078B1A2 /* Repositories */,
 			);
 			path = ScoreKeeperSwift;
 			sourceTree = "<group>";
@@ -161,9 +161,25 @@
 		F064D6821A7E70B10078B1A2 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				F04CF93E1A7D103000875C23 /* UserRepository.swift */,
+				F064D6831A7E72550078B1A2 /* UserRepository.swift */,
 			);
 			name = Repositories;
+			sourceTree = "<group>";
+		};
+		F064D6851A7E725D0078B1A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F064D6861A7E727C0078B1A2 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F064D6881A7E728E0078B1A2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF9221A7D0FB000875C23 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,9 +319,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04CF9211A7D0FB000875C23 /* ViewController.swift in Sources */,
-				F04CF93F1A7D103000875C23 /* UserRepository.swift in Sources */,
+				F064D6871A7E727C0078B1A2 /* ViewController.swift in Sources */,
 				F04CF91F1A7D0FB000875C23 /* AppDelegate.swift in Sources */,
+				F064D6841A7E72550078B1A2 /* UserRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
