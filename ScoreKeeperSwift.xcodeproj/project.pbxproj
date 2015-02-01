@@ -13,7 +13,7 @@
 		F04CF9261A7D0FB000875C23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9251A7D0FB000875C23 /* Images.xcassets */; };
 		F04CF9291A7D0FB000875C23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */; };
 		F04CF9351A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */; };
-		F04CF93F1A7D103000875C23 /* ScoreKeeperDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF93E1A7D103000875C23 /* ScoreKeeperDataService.swift */; };
+		F04CF93F1A7D103000875C23 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04CF93E1A7D103000875C23 /* UserRepository.swift */; };
 		F04CF94F1A7D142C00875C23 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04CF9481A7D13FC00875C23 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +66,7 @@
 		F04CF92E1A7D0FB000875C23 /* ScoreKeeperSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreKeeperSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04CF9331A7D0FB000875C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04CF9341A7D0FB000875C23 /* ScoreKeeperSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreKeeperSwiftTests.swift; sourceTree = "<group>"; };
-		F04CF93E1A7D103000875C23 /* ScoreKeeperDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeperDataService.swift; sourceTree = "<group>"; };
+		F04CF93E1A7D103000875C23 /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		F04CF9401A7D13FC00875C23 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 				F04CF9251A7D0FB000875C23 /* Images.xcassets */,
 				F04CF9271A7D0FB000875C23 /* LaunchScreen.xib */,
 				F04CF91C1A7D0FB000875C23 /* Supporting Files */,
-				F04CF93E1A7D103000875C23 /* ScoreKeeperDataService.swift */,
+				F064D6821A7E70B10078B1A2 /* Repositories */,
 			);
 			path = ScoreKeeperSwift;
 			sourceTree = "<group>";
@@ -156,6 +156,14 @@
 				F04CF94E1A7D13FC00875C23 /* Alamofire OSX Tests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F064D6821A7E70B10078B1A2 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F04CF93E1A7D103000875C23 /* UserRepository.swift */,
+			);
+			name = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04CF9211A7D0FB000875C23 /* ViewController.swift in Sources */,
-				F04CF93F1A7D103000875C23 /* ScoreKeeperDataService.swift in Sources */,
+				F04CF93F1A7D103000875C23 /* UserRepository.swift in Sources */,
 				F04CF91F1A7D0FB000875C23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +433,7 @@
 				INFOPLIST_FILE = ScoreKeeperSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -435,6 +444,7 @@
 				INFOPLIST_FILE = ScoreKeeperSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -491,6 +501,7 @@
 				F04CF93A1A7D0FB000875C23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F04CF93B1A7D0FB000875C23 /* Build configuration list for PBXNativeTarget "ScoreKeeperSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +510,7 @@
 				F04CF93D1A7D0FB000875C23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
